@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "dksandbox-345014-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "jenkins"
   }
 }
